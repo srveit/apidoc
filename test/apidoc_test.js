@@ -93,7 +93,7 @@ describe('apiDoc full example', function() {
             var createdLines = createdContent.split(/\n/);
 
             if (fixtureLines.length !== createdLines.length)
-                throw new Error('File ./tmp/' + name + ' not equals to ' + fixturePath + '/' + name);
+                throw new Error('File ./tmp/' + name + ' not equal to ' + fixturePath + '/' + name);
 
             for (var lineNumber = 0; lineNumber < fixtureLines.length; lineNumber += 1) {
                 if (fixtureLines[lineNumber] !== createdLines[lineNumber])

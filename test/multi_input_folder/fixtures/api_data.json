@@ -11,17 +11,17 @@
         "Credentials": [
           {
             "group": "Credentials",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "username",
-            "description": "<p>Username</p> "
+            "description": "Username"
           },
           {
             "group": "Credentials",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "password",
-            "description": "<p>password</p> "
+            "description": "password"
           }
         ]
       }
@@ -35,7 +35,7 @@
             "group": "500 Internal Server Error",
             "optional": false,
             "field": "InternalServerError",
-            "description": "<p>The server encountered an internal error</p> "
+            "description": "The server encountered an internal error"
           }
         ]
       },
@@ -53,7 +53,7 @@
     "url": "/api/subscriptioninfo",
     "title": "",
     "version": "0.3.0",
-    "description": "<p>Get the subscription information from an authenticated user.</p> ",
+    "description": "Get the subscription information from an authenticated user.",
     "group": "Authentication",
     "name": "GetSubscriptionInfo",
     "filename": "src/test_api.js",
@@ -66,7 +66,7 @@
             "type": "String",
             "optional": false,
             "field": "Authorization",
-            "description": "<p>Auth header with JWT Token</p> "
+            "description": "Auth header with JWT Token"
           }
         ]
       },
@@ -85,7 +85,7 @@
             "group": "500 Internal Server Error",
             "optional": false,
             "field": "InternalServerError",
-            "description": "<p>The server encountered an internal error</p> "
+            "description": "The server encountered an internal error"
           }
         ]
       },
@@ -103,16 +103,16 @@
     "url": "/api/subscriptioninfo/:userid",
     "title": "",
     "version": "0.2.0",
-    "description": "<p>Get the subscription information for a user.</p> ",
+    "description": "Get the subscription information for a user.",
     "parameter": {
       "fields": {
         "Parameter": [
           {
             "group": "Parameter",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "userid",
-            "description": "<p>user id</p> "
+            "description": "user id"
           }
         ]
       }
@@ -128,7 +128,7 @@
             "group": "500 Internal Server Error",
             "optional": false,
             "field": "InternalServerError",
-            "description": "<p>The server encountered an internal error</p> "
+            "description": "The server encountered an internal error"
           }
         ]
       },
